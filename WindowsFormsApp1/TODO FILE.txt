@@ -1,0 +1,99 @@
+﻿TODO:
+			
+- ITEMBELI	-> UPDATE CHANGE STOCK PRICE N QTY (DONE)
+			-> INSERT UPDATE TANGGAL MASUK IN STOCK (DONE)
+			-> Update Jumlah item di faktur (done)
+			-> Delete Item Beli (done)
+			-> NAMA STOCK INSTEAD OF KODE STOCK (donm)
+
+- ITEMJUAL  -> INSERT CHANGE STOCK PRICE N QTY (done)
+			-> UPDATE CHANGE STOCK PRICE N QTY (done)
+			-> Update jumlah item di faktur (done)
+			-> Delete Item Jual (done)
+			-> add discount per item (done)
+			-> NAMA STOCK INSTEAD OF KODE STOCK (done)
+
+- FAKTUR JUAL	-> CASH LGSG LUNAS (done)
+				-> ADD DISCOUNT TEXT BOX (done)
+				-> DATE SHOULD NOT CHANGE WHEN UPDATE (done)
+				-> update lunas date (done)
+				-> delete discount (done)
+				-> print button
+				
+
+- FAKTUR BELI	-> DATE SHOULD NOT CHANGE WHEN UPDATE (done)
+				-> JATUH TEMPO SHOULD NOT CHANGE WHEN UPDATE (done)
+				-> CASH LGSG LUNAS ( NO NEED LUNAS DATE)
+				-> JAUTH TEMPO HITUNG DARI LAMA KREDIT (done)
+				-> print button
+
+- STOCK	-> CANT ADD SAME KODE STOCK IN STOCK (done) (need exception)	(done)
+		-> TANGGAL MASUK UPDATE --> NEED TO CHANGE DATABASE?? Change everytime Faktur Beli in (done)
+		-> FITUR LIHAT - LIHAT HISTORY STOK
+
+- CUSTOMER	-> GET PIUTANG (done)
+			-> GET BULAN 1 S/D 3 PIUTANG (updated) (done)
+			-> GET BULAN 1 S/D 3 RETURN	(updated) (done)
+			-> GET JATUH TEMPO DATE	(done)
+
+
+- SALES		-> Omset -> tidak termasuk ppn dan discount -> iMPORT N LOCAL -> PER BULAN FAKTUR JUAL TOTAL DITAMBAH SEMUA (done)
+			-> JLH TAGIH -> PER BULAN -> TOTAL PEMBAYARAN
+			-> JLH RETURN -> PER BULAN -> TOTAL PEMBAYARAN
+			-> PROFIT -> PER BULAN -> Faktur jual KURANG DISKON = PROFIT (done)
+			-> DISCOUNT -> PER BULAN -> Pembayaran
+			-> delete komisi target (done)
+			(LUNAS FAKTUR ONLY??)
+
+- SUPPLIER	-> GET TOTAL HUTANG IF BOUGHT IT WITH CREDIT (no need)
+
+- PEMBAYARAN TAB	-> Create SQL File => No faktur (Simpannya 18040001; 180400002; 18040003 dst) (Cheli Check)	(done)
+					-> Insert Pembayaran (done)
+					-> Update Pembayaran 
+					-> HAPUS
+					-> add discount
+					
+
+- UX	-> APPLY CANCEL BUTTON WHEN CHANGING TAB (done)
+
+
+- TAMBAH PASSWORD	-UPDATE PASSWORD (DONE)
+					-INSERT NEW USER (DONE)
+					-ROLE	-> 0 = ADMIN --> FULL ACCESS (done)
+							-> 1 = FIRST ACQUAINTANCE --> CANT EDIT & LAPORAN TAB (done)
+							-> 2 = SECOND ACQUAITANCE --> CANT EDIT, LAPORAN TAB, PEMBAYARAN, fakturbeli (done)
+							-> 3 = THIRD -> CANT EDIT, LAPORAN, SUPPLIER, FAKTURB, HAPUS (done)
+
+
+FIX ME:
+- CHANGE EVERY DATE INTO THIS FORMAT ("{0:ddd,  MMM-dd-yyyy}") EXAMPLE IN STOCKS.CS (done)
+- FORM 1 LINE 580 PROFIT BECOME NEGATIVE BECAUSE HARGA POKOK NOT LOAD FROM ITEMJUAL DATABASE BUT FROM STOCK DATABASE (DONE)
+
+
+- FORM 1 LINE 154 ExecuteReader requires the command to have a 
+transaction when the connection assigned to the command is in a pending local transaction.  
+The Transaction property of the command has not been initialized.' GA BISA INSERT FAKTUR JADINYA GARA2 INI
+makanya harus pakai using (var connection = blablabla) {
+}
+ biar ga ada masalah (recommended by stackoverflow)
+setiap event pakai connection beda 
+ TAPI LU GA MAU
+
+PROBLEMS
+-> WHAT HAPPENS WHEN EDIT FAKTUR BELI THAT CAUSE STOK QUANTITY BECOMES NEGATIVE? LEAVE IT LIEK DAT
+-> RETURN PROBLEMS
+-> JATUHTEMPO IF EDIT? (done)
+-> Pembayaran bisa bayar setengah setengah? PEMBAYARAN GA BISA SETENGAH SETENGAH
+
+TODO AFTER ALL DONE: 
+- CHECK FOR POTENTIAL ERROR
+- CHECK COMBOBOX AUTOCOMPLETE
+
+Return:
+- discount ganti dari faktur jual ke item jual (done)
+- pembayaran butuh another discount
+
+Cheli Do this: 
+- RETURN FAKTUR JUAL	-> INSERT ITEM JUAL -> STOK QTY DECREASE
+						-> UPDATE ITEM JUAL -> STOK QTY CHANGED
+- UPDATE FAKTUR JUAL FROM JUAL TO RETUR -> STOK CHANGED 

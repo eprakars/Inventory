@@ -1,0 +1,35 @@
+C:\Users\Edwin Prakarsa\source\repos\InventoryProgram(Vera)\WindowsFormsApp1\bin\Debug\WindowsFormsApp1.exe.config
+C:\Users\Edwin Prakarsa\source\repos\InventoryProgram(Vera)\WindowsFormsApp1\bin\Debug\WindowsFormsApp1.exe
+C:\Users\Edwin Prakarsa\source\repos\InventoryProgram(Vera)\WindowsFormsApp1\bin\Debug\WindowsFormsApp1.pdb
+C:\Users\Edwin Prakarsa\source\repos\InventoryProgram(Vera)\WindowsFormsApp1\bin\Debug\ObjectListView.dll
+C:\Users\Edwin Prakarsa\source\repos\InventoryProgram(Vera)\WindowsFormsApp1\bin\Debug\ObjectListView.pdb
+C:\Users\Edwin Prakarsa\source\repos\InventoryProgram(Vera)\WindowsFormsApp1\bin\Debug\ObjectListView.xml
+C:\Users\Edwin Prakarsa\source\repos\InventoryProgram(Vera)\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.Form1.resources
+C:\Users\Edwin Prakarsa\source\repos\InventoryProgram(Vera)\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.Properties.Resources.resources
+C:\Users\Edwin Prakarsa\source\repos\InventoryProgram(Vera)\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.csproj.GenerateResource.Cache
+C:\Users\Edwin Prakarsa\source\repos\InventoryProgram(Vera)\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.csproj.CoreCompileInputs.cache
+C:\Users\Edwin Prakarsa\source\repos\InventoryProgram(Vera)\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.exe
+C:\Users\Edwin Prakarsa\source\repos\InventoryProgram(Vera)\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.pdb
+C:\Users\Edwin Prakarsa\source\repos\InventoryProgram(Vera)\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.csprojResolveAssemblyReference.cache
+C:\Users\cheli\source\edwin\ProjectVera\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.Form1.resources
+C:\Users\cheli\source\edwin\ProjectVera\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.Properties.Resources.resources
+C:\Users\cheli\source\edwin\ProjectVera\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.csproj.GenerateResource.Cache
+C:\Users\cheli\source\edwin\ProjectVera\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.csproj.CoreCompileInputs.cache
+C:\Users\cheli\source\edwin\ProjectVera\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.exe
+C:\Users\cheli\source\edwin\ProjectVera\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.pdb
+C:\Users\cheli\source\edwin\ProjectVera\WindowsFormsApp1\bin\Debug\WindowsFormsApp1.exe.config
+C:\Users\cheli\source\edwin\ProjectVera\WindowsFormsApp1\bin\Debug\WindowsFormsApp1.exe
+C:\Users\cheli\source\edwin\ProjectVera\WindowsFormsApp1\bin\Debug\WindowsFormsApp1.pdb
+C:\Users\Edwin Prakarsa\source\repos\InventoryProgram(Vera)\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.Login.resources
+C:\Users\cheli\source\edwin\ProjectVera\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.Login.resources
+C:\Users\cheli\source\edwin\ProjectVera\WindowsFormsApp1\bin\Debug\ObjectListView.pdb
+C:\Users\cheli\source\edwin\ProjectVera\WindowsFormsApp1\bin\Debug\ObjectListView.xml
+C:\Users\cheli\source\edwin\ProjectVera\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.csprojResolveAssemblyReference.cache
+C:\Users\Edwin Prakarsa\source\repos\InventoryProgram(Vera)\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.ImageForm.resources
+C:\Users\cheli\source\edwin\ProjectVera\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.ImageForm.resources
+C:\Users\Edwin Prakarsa\source\repos\InventoryProgram(Vera)\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.UbahPassword.resources
+C:\Users\cheli\source\edwin\ProjectVera\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.UbahPassword.resources
+C:\Users\Edwin Prakarsa\source\repos\InventoryProgram(Vera)\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.UbahTanggal.resources
+C:\Users\cheli\source\edwin\ProjectVera\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.UbahTanggal.resources
+C:\Users\Edwin Prakarsa\source\repos\InventoryProgram(Vera)\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.TambahPassword.resources
+C:\Users\cheli\source\edwin\ProjectVera\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.TambahPassword.resources
